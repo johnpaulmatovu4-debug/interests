@@ -15,6 +15,12 @@ public class customerinterests {
         total = deposit + interest;
     }
     public static void report(){
+        System.out.println("\n---savings interest report---" );
+        System.out.println("original deposit: " + deposit);
+        System.out.println("interest rate: " + rate);
+        System.out.println("interest earned: " + interest);
+        System.out.println("total amount: " + total);
+
     }
 
 }
