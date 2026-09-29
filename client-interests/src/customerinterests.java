@@ -20,6 +20,14 @@ public class customerinterests {
         System.out.println("interest rate: " + rate);
         System.out.println("interest earned: " + interest);
         System.out.println("total amount: " + total);
+        int roundedinterest = (int) interest;
+        int roundedtotal = (int) total;
+        String RateAsString= Double.toString(rate);
+
+        System.out.println("\n---conversion accuracy---");
+        System.out.println("rounded interest: " + roundedinterest);
+        System.out.println("rounded total: " + roundedtotal);
+        System.out.println("Rate as String: "+ RateAsString);
 
     }
 
