@@ -14,5 +14,7 @@ public class customerinterests {
         interest = deposit * rate;
         total = deposit + interest;
     }
+    public static void report(){
+    }
 
 }
